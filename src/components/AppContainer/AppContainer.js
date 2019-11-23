@@ -1,10 +1,11 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './AppContainer.css';
+import AppHeader from "../AppHeader/AppHeader";
 
 function AppContainer() {
   return (
-    <div className="container">
-      <h1>Wahoo</h1>
+    <div styleName="container">
+      <AppHeader/>
     </div>
   );
 }
