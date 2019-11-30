@@ -2,7 +2,8 @@
     width: 100%;
     position: relative;
     background-color: rgb(220, 0, 0);
-    border: 1px solid;
+    box-shadow: inset 0px 0px 0px 1px black;
+    position: fixed;
 }
 
 .headerText{
